@@ -14,6 +14,7 @@
 
       <div v-if='loading'>Loading graph...</div>
     </div>
+    <a href="https://github.com/anvaka/color-high" class='src'>source code</a>
   </div>
 </template>
 
@@ -122,5 +123,10 @@ h2 {
 .number {
   color: yellow;
   font-size: 18px;
+}
+.src {
+  position: fixed;
+  bottom: 8px;
+  right: 9px;
 }
 </style>
